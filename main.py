@@ -12,6 +12,7 @@ mine = random.sample(card, 2)
 
 second_card = random.choice(card)
 mine_result = sum(mine)
+final_result = mine_result + second_card
 
 
 print("your cards: ", mine)
@@ -20,11 +21,14 @@ print("your sub-card: ", second_card)
 choice = input("add or not: ")
 
 if choice == "add":
-    final_result = mine_result + second_card
     print(final_result)
     s(1)
-    if final_result > 21:
-        print("you failed")
-        clear()
 else:
-    print()
+    pass
+    clear()
+
+if final_result > 21:
+    print("you failed")
+    clear()
+else:
+    print("hello")
