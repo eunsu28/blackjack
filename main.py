@@ -19,4 +19,5 @@ print(second_card)
 choice = input("add or not:")
 
 if choice == "add":
-    final_result = sum
+    final_result = mine_result + second_card
+    print(final_result)
