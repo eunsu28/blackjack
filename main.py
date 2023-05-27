@@ -24,11 +24,11 @@ if choice == "add":
     print(final_result)
     s(1)
 else:
-    pass
-    clear()
+    print(mine_result)
 
 if final_result > 21:
     print("you failed")
-    clear()
+    s(1)
+    print("diller's number was: ", diller)
 else:
-    print("hello")
+    print("diller's number: ", diller)
