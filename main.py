@@ -20,6 +20,8 @@ print("your sub-card: ", second_card)
 
 choice = input("add or not: ")
 
+game_on = True
+while game
 if choice == "add":
     print(final_result)
     mine_result = final_result
